@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Proyecto: Blog</title>
+    </head>
+    <style>
+        body{
+            background:rgb(239, 217, 255);
+        }
+        h1{
+        
+            font-family:cursive;
+            font-size: 13px;
+            font-style: italic;
+            line-height: 1.5em;
+            text-align: center;
+            color:rgb(204, 45, 204);
+        }
+        
+        h2{
+            font-family:cursive;
+            color:rgb(131, 18, 224);
+        }
+        h3{
+            font-family:cursive;
+            color:rgb(111, 0, 255);
+        }
+        h6{
+            font-family:cursive;
+            font-style:italic;
+            color:rgb(175, 36, 222);
+        }
+        body{
+            font-family:cursive;
+            color:rgb(0, 0, 0);
+        }
+       p{
+           line-height:15px;
+       }
+       
+        
+        
+    </style>
+    <body>
+        
+        <h1>sussan's blog</h1>
+
+        <h3>Contenidos</h3>
+        <ul>
+            <li>
+            <a href="#primerpost">
+            quien soy</a></li>
+            <li>
+            <a href="#segundopost">
+        cuales son mis hobbies</a>
+           
+          </li>
+             <li>
+             <a href="#tercerpost">
+             en cinco años me veo asi</a>
+                 
+             </li>
+
+        </ul>
+        
+        <h2 id="primerpost">quien soy</h2>
+        <h6>13 de marzo del 2026</h6>
+        
+        <p class="primer-post">soy estudiante de la institucion sagrada familia llevo al rededor de 12 años en esta institucion, tengo 14 años soy la hermana mayor de dos niños que tiene 7 y 10 años, no me considero una persona con pasiencia pero intento mejorar eso ya que quiero ser en un futuro maestra</p>
+        
+        <h2 id="segundopost">cuales son mis hobbies</h2>
+        <h6>13 de marzo del 2026</h6>
+        <p>me gusta jugar el baloncesto, me gusta pintar, me gusta ver peliculas animadas y le gusta dormir </p>
+        
+          <h2 id="tercerpost">en 5 años me veo asi</h2>
+        <h6>13 de marzo del 2026</h6>
+        <p> me veo de aqui a 5 años como una persona que aprendio a controlar su paciencia y sabe controlar niños, me vieo como una persona que se sabe poner limites en todo y sabe cuando dcir que si y cuando decir que no</p>
+        
+        
+        
+    </body>
+</html>
