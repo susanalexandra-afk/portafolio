@@ -1,67 +1,22 @@
-*{
-    padding: 0;
-margin: 0;
+/* Imágenes dentro del article */
+article img {
+width: 100%; /* la imagen ocupa todo el ancho del article */
+max-width: 700px;
+height: auto;
+display: block;
+margin: 10px 0;
 }
-
-body {
-    background-color: #bc87fa;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+/* Imágenes del aside (redes sociales) */
+aside img {
+width: 30px;
+margin: 5px;
 }
+/* Texto del article */
+article { padding: 15px; }
+article h2 { margin-bottom: 10px; color: #a02534; }
+article p { margin-bottom: 10px; line-height: 1.6; }
 
-/*contenedor de la pagina*/
+body{
+background-color: rgb(220, 201, 238);
 
-.contenedor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
 }
-
-/*tarjeta de presentacion*/
-.tarjeta{
-    background-color: #bf4ef3;
-    width: 250px;
-    border-radius: 40px;
-    display: flex;
-    flex-direction:column ;
-    padding:20px;
-    justify-content: space-around;
-    gap: 15px;
-}
-
-img{
-    width: 150px;
-    align-self: center;
-    border-radius: 76px;
-}
-
-h1{
-    font-size: 20PX;
-    text-align: justify;
-    color: #0593A2;
-    
-}
-
-p{
-    font-size: 14px;
-    text-align: center;
-    text-decoration: white;
-    line-height: 1.5;
-}
-
-a{
-    color: rgb(255, 255, 255);
-    text-align: right;
-   text-decoration: none;
-    transition: color 0.3s;
-}
-
-a:hover{
-    color: #7401a1;
-}
-
